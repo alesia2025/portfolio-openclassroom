@@ -1,0 +1,518 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.header-menu ul
+{
+    font-size: 18px;
+}
+.main-contain
+{
+
+}
+.header-menu
+{
+    width: 100%;
+    height: 80px;
+    padding: 0 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+
+}
+
+.nav-links ul
+{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+.nav-links ul a
+{
+    color: #242424;
+    transition: 0.3s;
+}
+.nav-links ul a:hover
+{
+    color: #555555;
+}
+
+
+/* MAIN SECTION */
+
+.main-section
+{
+    height: 653px;
+    width: 100%;
+    background-color: #1F2039;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1
+{
+    width: 420px;
+    height: 420px;
+    background-color: #1F2039;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+.section2
+{
+    background-image: url(doc/robbie-lens.png);
+    width: 425px;
+    height: 419px;
+}
+
+.section1 h1
+{
+    color: #A5B4FC;
+    font-family: 'Montserrat';
+}
+.section1 p
+{
+    color: #F9F8FF;
+    max-width: 85%;
+    font-family: 'Manrope';
+    line-height: 1.5;
+}
+
+.ecrivez-moi
+{
+    width: 314px;
+    height: 65px;
+    background-color: #8E86B5;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 1px #bdb3f0cb;
+}
+.ecrivez-moi:hover
+{
+    background-color: #bdb3f0cb;
+    transition: 0.3s;
+}
+
+/* MAIN PROJET */
+
+.main-projet
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+   padding-top: 25px;
+   padding-bottom: 150px;
+}
+.projet1
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    gap: 20px; 
+    background-size: cover;
+    justify-items: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio
+{
+    width: 314px;
+    height: 65px;
+    background-color: #8E86B5;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 1px #bdb3f0cb;
+    font-family: 'Montserrat';
+}
+.portfolio:hover
+{
+    background-color: #bdb3f0cb;
+    transition: 0.3s;
+}
+
+/* FORMULAIRE BODY */
+
+.formulaire-main
+{
+    background-color: #1F2039;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire
+{
+    width: 525px;
+    height: 368px;
+}
+
+.formulaire h1
+{
+    text-align: center;
+    color: #A5B4FC;
+    font-family: 'Montserrat';
+    padding-top: 50px;
+    
+}
+
+.form-text
+{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #F9F8FF;
+    font-family: 'Manrope';
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px 25px 100px;
+}
+.nom-mail
+{
+    display: flex;
+    gap: 20px;
+
+}
+
+/* PORTFOLIO PAGE */
+
+.contain-body
+{
+    background-color: #1F2039;
+    width: 100%;
+    min-height: 1474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-img
+{
+    display: grid;
+    grid-template-columns: repeat(5, 192px); /* 5 images par ligne, chaque image ayant une largeur de 192px */
+    gap: 20px;
+    z-index: 1;
+    justify-content: center; /* Centre les images dans le conteneur */
+    margin-top: 325px;
+}
+.content-img img
+{
+    width: 192px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-inv
+{
+    width: 615px;
+    height: 500px;
+    background-color: #2C2E51;
+    transform: translate(-50%, -87%);
+    position: relative;
+    z-index: 0;
+    left: 63%;
+}
+.a-propos
+{
+    width: 602px;
+    height: 67px;
+    color: #A5B4FC;
+    font-family: 'Montserrat';
+    font-size: 55px;
+}
+.content-all
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translate(50%, -25%);
+    margin-left: 500px;
+    height: 600px;
+    width: 600px;
+    gap: 20px;
+}
+.paragraphe
+{
+    color: #F9F8FF;
+    width: 516px;
+    height: 187px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5;
+}
+.services
+{
+    color: #F9F8FF;
+}
+.liste
+{
+    color: #F9F8FF;
+    margin-left: 20px;
+}
+.bordure
+{
+    width: 315px;
+    height: 407px;
+    border-right: 1px solid #A5B4FC; /* Bordure à droite */
+    border-bottom: 1px solid #A5B4FC; /* Bordure en bas */
+    border-top: none;
+    border-left: none;
+    margin-left: auto;
+    top: -250px;
+    position: relative;
+}
+.a-propos
+{
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+.footer1
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px 25px 100px; 
+}
+.portfolio3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.button-link
+{
+    width: 314px;
+    height: 65px;
+    background-color: #8E86B5;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 1px #bdb3f0cb;
+    font-family: 'Montserrat';
+}
+
+/* TARIFS PAGE */
+.body1 {
+    background-color: #1F2039;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh; /* Assure que la div prend toute la hauteur de la fenêtre */
+}
+.tarif-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 180px;
+    margin-left: 250px;
+    margin-right: 260px;
+    width: auto;
+    color: #A5B4FC;
+}
+.tarifs
+{
+    font-size: 55px;
+    color: #A5B4FC;
+}
+.b1
+{
+    border-right: 1px solid #a5b4fcc4;
+    border-bottom: 1px solid #a5b4fccc;
+    border-top: none;
+    border-left: none;
+    height: 295px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+.b1-title
+{
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.b1 p
+{
+    font-size: 14px;
+    color: white;
+    line-height: 1.8;
+}
+.b1-title2
+{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.b1 h6
+{
+    font-size: 10px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+.bloc2
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 125px;
+}
+.bloc2 h1
+{
+    color: #A5B4FC;
+}
+.bloc2 span
+{
+    color: #A5B4FC;
+}
+.table
+{
+    border-collapse: collapse;
+    color: #F9F8FF;
+    font-size: 14px;
+    margin-left: 530px;
+
+}
+.col-small 
+{
+    width: 20%;
+}
+.col-large 
+{
+    width: 20%;
+}
+th  
+{
+    height: 40px;
+    border: 1px solid #a5b4fccb;
+    text-align: left;
+}
+td
+{
+    height: 150px;
+    border: 1px solid #a5b4fccc;
+    text-align: left;
+}
+.tarif-button1
+{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 530px;
+}
+.tableau
+{
+    margin-top: 50px;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfolio-bloc
+{
+    height: 307px;
+    background-color: #1F2039;
+    color: #A5B4FC;
+    font-size: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.portfolio-title
+{
+    margin-left: 200px;
+}
+.projet2 {
+    display: grid;
+    grid-template-columns: repeat(3, 326px);
+    gap: 20px; 
+    justify-content: center; 
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+.projet3
+{
+    display: grid;
+    grid-template-columns: repeat(3, 326px);
+    gap: 20px; 
+    justify-content: center; 
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.projet-portfolio2
+{
+    margin: 200px
+}
+
+
+.projet-portfolio3
+{
+    margin: 200px
+}
+
+.projet2 img, .projet3 img {
+    width: 326px;
+    height: 311px;
+
+}
+.paysages
+{
+    text-align: ce;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
+
+}
+.portrais
+{
+    text-align: ce;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
+}
