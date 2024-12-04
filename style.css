@@ -220,10 +220,10 @@ a{
 .content-img
 {
     display: grid;
-    grid-template-columns: repeat(5, 192px); /* 5 images par ligne, chaque image ayant une largeur de 192px */
+    grid-template-columns: repeat(5, 192px); /* nombre d'image par ligne avec une taille prédéfini */
     gap: 20px;
     z-index: 1;
-    justify-content: center; /* Centre les images dans le conteneur */
+    justify-content: center;
     margin-top: 325px;
 }
 .content-img img
@@ -284,8 +284,8 @@ a{
 {
     width: 315px;
     height: 407px;
-    border-right: 1px solid #A5B4FC; /* Bordure à droite */
-    border-bottom: 1px solid #A5B4FC; /* Bordure en bas */
+    border-right: 1px solid #A5B4FC;
+    border-bottom: 1px solid #A5B4FC;
     border-top: none;
     border-left: none;
     margin-left: auto;
@@ -334,7 +334,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh; /* Assure que la div prend toute la hauteur de la fenêtre */
+    height: 100vh;
 }
 .tarif-button
 {
