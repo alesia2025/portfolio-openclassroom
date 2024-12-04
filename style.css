@@ -130,7 +130,7 @@ a{
 .projet1
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    grid-template-columns: repeat(3, 1fr); /* ces pour crée les colone avec les meme largeurs */
     gap: 20px; 
     background-size: cover;
     justify-items: center;
